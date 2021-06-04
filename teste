@@ -1,0 +1,35 @@
+{filmes.map(filme => (
+          <li key={filme.show.id}>
+            <h2>
+              <strong>  Título:    </strong>
+              {filme.show.name}
+            </h2>
+          </li>
+        ))}
+
+const [ID, R] = useState('');
+
+
+
+          return (
+      <div>
+        <h1>Listar os valores</h1>
+
+        <form>
+
+          <label>
+            ID : <input value="1" type="text" name="name" maxLength="20" />
+            Rodada : <input className="R" type="number" name="name" />
+          </label>
+          <input type="submit" value="Enviar" />
+        </form>
+        <li>{pontos.pontos}</li>
+      </div>
+    );
+
+
+
+    <form>
+          ID : <input ref={inputRef} type="text" name="name" maxLength="20" /><input type="submit" />
+          Rodada : <input type="number" name="name" /><input type="submit" />
+        </form>
