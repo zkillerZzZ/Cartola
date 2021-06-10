@@ -50,7 +50,7 @@ class App extends Component {
       textAlign: "center",
     };
     const table = {
-      textAlign: "center",
+      textAlign: "left",
       color: 'blue',
       marginLeft: "40%",
     }
@@ -66,51 +66,80 @@ class App extends Component {
 
         <h2>Liga Easy #1</h2>
         <h1> Grupo 1</h1>
-        <table style={table} striped bordered hover variant="dark">
-          <tr>
-            <th>Nome Real</th>
-            <th>Time do CartolaFC</th>
-            <th>Pontos</th>
-          </tr>
-          <tr>
-            <td>{nome_real[0]}</td>
-            <td>{nome_cartola[0]}</td>
-            <td>{pontos[0]}</td>
-          </tr>
-          <tr>
-            <td>{nome_real[1]}</td>
-            <td>{nome_cartola[1]}</td>
-            <td>{pontos[1]}</td>
-          </tr>
-          <tr>
-            <td>{nome_real[2]}</td>
-            <td>{nome_cartola[2]}</td>
-            <td>{pontos[2]}</td>
-          </tr>
-        </table>
+        <div style={div}>
+          <table style={table} striped bordered hover variant="dark">
+            <tr>
+              <th>Nome Real</th>
+              <th>Time do CartolaFC</th>
+              <th>Pontos</th>
+            </tr>
+            <tr>
+              <td>{nome_real[0]}</td>
+              <td>{nome_cartola[0]}</td>
+              <td>{pontos[0]}</td>
+            </tr>
+            <tr>
+              <td>{nome_real[1]}</td>
+              <td>{nome_cartola[1]}</td>
+              <td>{pontos[1]}</td>
+            </tr>
+            <tr>
+              <td>{nome_real[2]}</td>
+              <td>{nome_cartola[2]}</td>
+              <td>{pontos[2]}</td>
+            </tr>
+          </table>
+        </div>
         <h1> Grupo 2</h1>
-        <table style={table} striped bordered hover variant="dark">
-          <tr>
-            <th>Nome Real</th>
-            <th>Time do CartolaFC</th>
-            <th>Pontos</th>
-          </tr>
-          <tr>
-            <td>{nome_real[0]}</td>
-            <td>{nome_cartola[0]}</td>
-            <td>{pontos[0]}</td>
-          </tr>
-          <tr>
-            <td>{nome_real[1]}</td>
-            <td>{nome_cartola[1]}</td>
-            <td>{pontos[1]}</td>
-          </tr>
-          <tr>
-            <td>{nome_real[2]}</td>
-            <td>{nome_cartola[2]}</td>
-            <td>{pontos[2]}</td>
-          </tr>
-        </table>
+        <div style={div}>
+          <table style={table} striped bordered hover variant="dark">
+            <tr>
+              <th>Nome Real</th>
+              <th>Time do CartolaFC</th>
+              <th>Pontos</th>
+            </tr>
+            <tr>
+              <td>{nome_real[0]}</td>
+              <td>{nome_cartola[0]}</td>
+              <td>{pontos[0]}</td>
+            </tr>
+            <tr>
+              <td>{nome_real[1]}</td>
+              <td>{nome_cartola[1]}</td>
+              <td>{pontos[1]}</td>
+            </tr>
+            <tr>
+              <td>{nome_real[2]}</td>
+              <td>{nome_cartola[2]}</td>
+              <td>{pontos[2]}</td>
+            </tr>
+          </table>
+        </div>
+        <h1> Grupo 3</h1>
+        <div style={div}>
+          <table style={table} striped bordered hover variant="dark">
+            <tr>
+              <th>Nome Real</th>
+              <th>Time do CartolaFC</th>
+              <th>Pontos</th>
+            </tr>
+            <tr>
+              <td>{nome_real[0]}</td>
+              <td>{nome_cartola[0]}</td>
+              <td>{pontos[0]}</td>
+            </tr>
+            <tr>
+              <td>{nome_real[1]}</td>
+              <td>{nome_cartola[1]}</td>
+              <td>{pontos[1]}</td>
+            </tr>
+            <tr>
+              <td>{nome_real[2]}</td>
+              <td>{nome_cartola[2]}</td>
+              <td>{pontos[2]}</td>
+            </tr>
+          </table>
+        </div>
 
       </div >
 
