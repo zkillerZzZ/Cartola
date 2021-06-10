@@ -71,7 +71,7 @@ class App extends Component {
             <tr>
               <th>Nome Real</th>
               <th>Time do CartolaFC</th>
-              <th>Pontos</th>
+              <th>Pontos da Rodada</th>
             </tr>
             <tr>
               <td>{nome_real[0]}</td>
@@ -96,7 +96,7 @@ class App extends Component {
             <tr>
               <th>Nome Real</th>
               <th>Time do CartolaFC</th>
-              <th>Pontos</th>
+              <th>Pontos da Rodada</th>
             </tr>
             <tr>
               <td>{nome_real[0]}</td>
@@ -121,7 +121,7 @@ class App extends Component {
             <tr>
               <th>Nome Real</th>
               <th>Time do CartolaFC</th>
-              <th>Pontos</th>
+              <th>Pontos da Rodada</th>
             </tr>
             <tr>
               <td>{nome_real[0]}</td>
