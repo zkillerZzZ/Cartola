@@ -73,19 +73,19 @@ class App extends Component {
 
         <table style={table} striped bordered hover variant="dark">
           <tr>
-            <th>#</th>
+            <th>Nome Real</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Username</th>
           </tr>
           <tr>
-            <td>1</td>
+            <td>Time do Cartola</td>
             <td>Mark</td>
             <td>Otto</td>
             <td>@mdo</td>
           </tr>
           <tr>
-            <td>2</td>
+            <td>Pontos</td>
             <td>Jacob</td>
             <td>Thornton</td>
             <td>@fat</td>
