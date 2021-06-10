@@ -26,7 +26,7 @@ class App extends Component {
     })
 
     this.setState({
-      nome_cartola: [
+      nome_real: [
         response1.data.time.nome_cartola,
         response2.data.time.nome_cartola,
         response3.data.time.nome_cartola,
@@ -34,7 +34,7 @@ class App extends Component {
       ]
     })
     this.setState({
-      nome_real: [
+      nome_cartola: [
         response1.data.time.nome,
         response2.data.time.nome,
         response3.data.time.nome,
@@ -52,7 +52,7 @@ class App extends Component {
     const table = {
       textAlign: "center",
       color: 'blue',
-      marginLeft: "43%",
+      marginLeft: "40%",
     }
 
     const { pontos } = this.state;
@@ -65,35 +65,50 @@ class App extends Component {
         <h1>Ligas CartolaFC Overrox</h1>
 
         <h2>Liga Easy #1</h2>
-
-        <li><strong>{nome_cartola[0]}:</strong>   {nome_real[0]} --{pontos[0]}</li>
-        <li><strong>{nome_cartola[1]}:</strong>   {pontos[1]}</li>
-        <li><strong>{nome_cartola[2]}:</strong>   {pontos[2]}</li>
-        <li><strong>{nome_cartola[3]}:</strong>   {pontos[3]}</li>
-
+        <h1> Grupo 1</h1>
         <table style={table} striped bordered hover variant="dark">
           <tr>
             <th>Nome Real</th>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Username</th>
+            <th>Time do CartolaFC</th>
+            <th>Pontos</th>
           </tr>
           <tr>
-            <td>Time do Cartola</td>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>{nome_real[0]}</td>
+            <td>{nome_cartola[0]}</td>
+            <td>{pontos[0]}</td>
           </tr>
           <tr>
-            <td>Pontos</td>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td>{nome_real[1]}</td>
+            <td>{nome_cartola[1]}</td>
+            <td>{pontos[1]}</td>
           </tr>
           <tr>
-            <td>3</td>
-            <td colSpan="2">Larry the Bird</td>
-            <td>@twitter</td>
+            <td>{nome_real[2]}</td>
+            <td>{nome_cartola[2]}</td>
+            <td>{pontos[2]}</td>
+          </tr>
+        </table>
+        <h1> Grupo 2</h1>
+        <table style={table} striped bordered hover variant="dark">
+          <tr>
+            <th>Nome Real</th>
+            <th>Time do CartolaFC</th>
+            <th>Pontos</th>
+          </tr>
+          <tr>
+            <td>{nome_real[0]}</td>
+            <td>{nome_cartola[0]}</td>
+            <td>{pontos[0]}</td>
+          </tr>
+          <tr>
+            <td>{nome_real[1]}</td>
+            <td>{nome_cartola[1]}</td>
+            <td>{pontos[1]}</td>
+          </tr>
+          <tr>
+            <td>{nome_real[2]}</td>
+            <td>{nome_cartola[2]}</td>
+            <td>{pontos[2]}</td>
           </tr>
         </table>
 
