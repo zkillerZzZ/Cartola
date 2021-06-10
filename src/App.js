@@ -88,7 +88,7 @@ class App extends Component {
     const { nome_cartola } = this.state;
     const { nome_real } = this.state;
 
-    const maior = Math.max.apply(null, pontos);
+    //const maior = Math.max.apply(null, pontos);
 
     return (
 
